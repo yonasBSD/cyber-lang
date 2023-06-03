@@ -132,16 +132,22 @@ pre {
 
 pre code.hljs {
     padding: 0px;
+    white-space: pre-wrap;
 }
 
 .hljs {
     background-color: var(--accent-bg);
     color: var(--text);
 }
+.hljs-type {
+    color: #919aff;
+    font-weight: normal;
+}
 .hljs-keyword {
     color: var(--accent-light);
     font-weight: normal;
 }
+.hljs-symbol,
 .hljs-number,
 .hljs-string {
     color: rgb(120, 206, 120);
